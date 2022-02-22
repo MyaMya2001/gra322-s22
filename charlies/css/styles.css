@@ -1,0 +1,60 @@
+html {
+    --orange: #EAB12C;
+    --gray: #707070;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+ul {
+    list-style-type:none;
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+.my-button {
+    background-size: cover;
+    border: 3px solid #EAB12C;
+    border-radius: 28px;
+    background-color: #EAB12C;
+    color: #FFFFFF;
+    padding: 1rem 1.5rem;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  header {
+    background-image: src="img/beans.jpg" alt="beans";
+    background-position: center center;
+    background-size: contain;
+    left: 0;
+    padding: 1rem;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    max-width: 400px;
+    padding: 3rem;
+  }
+ .beans {
+    object-fit: cover;
+    height: 90vh;
+    width: 100vw;
+  }
+
+  footer {
+    background-color: var(--orange);
+    color:#FFFFFF;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
