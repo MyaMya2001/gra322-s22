@@ -4,6 +4,10 @@ html {
     --white: #FFFFFF;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Assistant', sans-serif;
     font-family: 'Roboto Serif', sans-serif;
