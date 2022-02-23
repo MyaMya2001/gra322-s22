@@ -19,6 +19,14 @@ ul {
     padding: 2rem;
   }
 
+  header {
+    background-image: url(../img/beans.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 1rem;
+    text-align: center;
+  }
+
 .my-button {
     background-size: cover;
     border: 3px solid #EAB12C;
@@ -31,17 +39,7 @@ ul {
   * {
     box-sizing: border-box;
   }
-  header {
-    background-image: src="img/beans.jpg" alt="beans";
-    background-position: center center;
-    background-size: contain;
-    left: 0;
-    padding: 1rem;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 100%;
-  }
+
   
   .logo {
     max-width: 400px;
@@ -57,6 +55,10 @@ ul {
     background-color: var(--orange);
     color:#FFFFFF;
     padding: 1.5rem 0;
+}
+
+.overview-grid {
+    list-style-type: none;
 }
 
 footer p {
