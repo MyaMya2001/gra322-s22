@@ -64,3 +64,44 @@ ul {
 footer p {
     margin-bottom: 0;
 }
+
+table {
+  width: 50%;
+}
+
+th {
+  background: #f2f2f2;
+  padding: 1rem;
+  text-align: left;
+}
+
+td {
+  padding: 1rem;
+  font-family: 'Assistant';
+  font-style: semi-bold;
+}
+
+.price {
+font-family: 'Assistant';
+}
+
+li {
+  font-family: 'Roberto Serif';
+  font-style: light italic;
+}
+
+h1 {
+  font-family: 'Roberto Serif';
+  font-style: light;
+  font-size: 55;
+}
+
+h2 {
+  font-family: 'Roberto Serif';
+  font-style: light;
+  font-size: 36;
+}
+
+.fancy-image {
+  border: 3px var(--orange) solid;
+}
