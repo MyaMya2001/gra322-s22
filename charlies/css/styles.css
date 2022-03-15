@@ -39,7 +39,7 @@ ul {
     border: 3px solid #EAB12C;
     border-radius: 28px;
     background-color: #EAB12C;
-    color: #FFFFFF;
+    color: #000000;
     padding: 1rem 1.5rem;
   }
 
@@ -53,7 +53,6 @@ ul {
     width: 43px;
     height: 32px;
     color:#FFFFFF;
-    ;
   }
 
   * {
@@ -66,10 +65,21 @@ ul {
     padding: 3rem;
     border: 0px;
   }
+
  .beans {
     object-fit: cover;
     height: 90vh;
     width: 100vw;
+  }
+
+  .fancy-image {
+    min-height: 167px;
+    min-width:198px;
+  }
+
+  .about-paragraph {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
 
   footer {
@@ -85,6 +95,7 @@ ul {
 footer p {
     margin-bottom: 0;
 }
+
 
 table {
   width: 50%;
@@ -104,7 +115,7 @@ td {
 
 .price {
 font-family: 'Assistant';
-font-weight: lighter;
+font-weight: light;
 }
 
 li {
@@ -119,6 +130,12 @@ h1 {
 }
 
 h2 {
+  font-family: 'Roberto Serif';
+  font-style: light;
+  font-size: 55;
+}
+
+h3 {
   font-family: 'Roberto Serif';
   font-style: light;
   font-size: 36;
@@ -151,7 +168,8 @@ section {
 .three-image {
   width: 156px;
   height: 129px;
-  display: grid;
+  display: flex;
+  object-fit: cover;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
@@ -179,7 +197,7 @@ span {
 }
 
 @media screen and (min-width: 800px) {
-  section {
+  .menu {
     grid-template-columns: 1fr 1fr;
   }
 }
