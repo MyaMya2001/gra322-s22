@@ -20,12 +20,19 @@ ul {
   }
 
   header {
-    background-image: url(../img/beans.jpg);
+    background-image: url(../img/beanss.jpg);
     background-position: center center;
     background-size: cover;
     padding: 1rem;
     text-align: center;
   }
+
+  #colorstrip{
+    width: 100%; height: 68px;
+    border-style: solid;
+    border-color: #EAB12C;
+    background-color: #EAB12C;
+}
 
 .my-button {
     background-size: cover;
@@ -36,6 +43,19 @@ ul {
     padding: 1rem 1.5rem;
   }
 
+  /* Need Help eith this button!!!*/
+
+  .menu-button {
+   display: flex;
+   justify-content: flex-end;
+   padding: 1rem;
+    position: absolute;
+    width: 43px;
+    height: 32px;
+    color:#FFFFFF;
+    ;
+  }
+
   * {
     box-sizing: border-box;
   }
@@ -44,6 +64,7 @@ ul {
   .logo {
     max-width: 400px;
     padding: 3rem;
+    border: 0px;
   }
  .beans {
     object-fit: cover;
@@ -83,6 +104,7 @@ td {
 
 .price {
 font-family: 'Assistant';
+font-weight: lighter;
 }
 
 li {
@@ -102,6 +124,62 @@ h2 {
   font-size: 36;
 }
 
-.fancy-image {
-  border: 3px var(--orange) solid;
+img {
+  border: 3px solid #EAB12C;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  padding: 3rem;
+}
+
+.two-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.three-top {
+  gap: 1rem;
+}
+.three-image {
+  width: 156px;
+  height: 129px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.panini-list {
+  list-style: none;
+}
+
+.panini-list table {
+  width: 100%;
+}
+
+.item {
+  font-family: Assistant;
+  font-weight: 600;
+}
+
+.panini-list p {
+  font-style: italic;
+}
+
+span {
+  color: #EAB12C;
+  height: 5px;
+}
+
+@media screen and (min-width: 800px) {
+  section {
+    grid-template-columns: 1fr 1fr;
+  }
 }
