@@ -252,7 +252,8 @@ span {
   }
   .menu-two {
     grid-template-columns: 1fr 1fr;
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: row-reverse;
   }
   .location-grid {
     grid-template-columns: 1fr 1fr;
