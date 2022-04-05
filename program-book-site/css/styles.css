@@ -1,0 +1,71 @@
+html {
+    --dark-green: #556354;
+    --light-green: #ABBBA9;
+    --white: #FFFFFF;
+    --light-gray: #F9F9F9;
+    --black: #000000;
+}
+
+header {
+    font-family: 'Assistant', sans-serif, bold;
+    background-color: #556354;
+    padding: 5rem;
+}
+
+.scroll-group {
+    color:#ABBBA9;
+    font-size: 19px;
+    font-weight: 400;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-display: center;
+    font-weight: 700;
+}
+
+.scroll-down {
+    color:#ABBBA9;
+    font-size: 23px;
+    font-display: center;
+    padding-top: 5rem;
+}
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+.intro {
+    padding: 3rem;
+}
+
+h2 {
+    color:#000000;
+}
+
+.gray-group {
+    background-color: #F9F9F9;
+    padding: 3rem;
+}
+
+.white-group {
+    background-color: #FFFFFF;
+    padding: 3rem;
+}
+
+.back-to-top {
+    justify-content: center;
+}
+
+.project-link {
+    color:#000000;
+}
+
+
+@media screen and (min-width: 800px) {
+
+}

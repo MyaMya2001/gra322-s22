@@ -204,7 +204,7 @@ section {
   max-width: 353px;
   min-height: 129px;
   max-height: 292px;
-  display: flex;
+  display: grid;
   object-fit: cover;
   grid-template-columns: 1fr 1fr;
   gap: .5rem;
@@ -252,7 +252,7 @@ span {
   }
   .menu-two {
     grid-template-columns: 1fr 1fr;
-    display: flex;
+    display: grid;
     flex-direction: row-reverse;
   }
   .location-grid {
