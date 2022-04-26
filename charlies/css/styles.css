@@ -67,6 +67,10 @@ header {
     box-sizing: border-box;
   }
 
+  .nav-bar {
+    font-family: Roboto Serif;
+    font-weight: 500;
+  }
   
 .logo {
     max-width: 400px;
@@ -149,14 +153,14 @@ h1 {
 
 h2 {
   font-family: 'Roboto Serif';
-  font-style: light;
-  font-size: 55;
+  font-weight: 300;
+  font-size: 72;
   padding-left: 3rem;
 }
 
 h3 {
   font-family: 'Roboto Serif';
-  font-style: light;
+  font-weight: 300;
   font-size: 36;
 }
 
@@ -176,9 +180,10 @@ section {
 }
 
 .two-image {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   gap: 11px;
+  padding: .5rem;
 }
 
 .three-top {
@@ -201,15 +206,17 @@ section {
 
 .item {
   font-family: Assistant;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .panini-list p {
-  font-style: italic;
+  font-family: Assistant;
+  font-weight: 300;
 }
 
 .description {
-  font-style: italic;
+  font-family: Assistant;
+  font-weight: 300;
 }
 
 span {

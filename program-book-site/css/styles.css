@@ -151,14 +151,23 @@ h3 {
     padding: 3rem;
 }
 
-.miler {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    padding-bottom: 0.5rem;
+.miler-image {
+    padding:2rem;
+}
+
+.miler-prototype {
+    display: flex;
+    padding: 1rem;
 }
 
 .moodboard {
     padding: 3rem;
+    display: flex;
+}
+
+.process {
+    display: flex;
+    padding: 2rem; 
 }
 
 .back-to-top {
@@ -177,6 +186,24 @@ h3 {
     width: 500px;
     padding: 2rem;
     text-align:center;
+}
+
+ .fourth {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.fourth-realm {
+    display: flex;
+    height:auto;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.image-link {
+    padding: 2rem;
 }
 
 nav a {
@@ -210,12 +237,13 @@ li {
  .gray-group {
      background-color: #FFFFFF;
  }
- .contact {
-        grid-template-columns: 1fr 1fr;
-        display: grid;
-    }
  .miler {
     grid-template-columns: 1fr 1fr;
     display: grid; 
+ }
+
+ .process {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
  }
 }
